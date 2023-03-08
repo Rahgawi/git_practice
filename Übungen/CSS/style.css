@@ -1,0 +1,44 @@
+body {
+	background-color: #e5e5f7;
+	opacity: 0.8;
+	background: radial-gradient(
+			circle,
+			transparent 20%,
+			#e5e5f7 20%,
+			#e5e5f7 80%,
+			transparent 80%,
+			transparent
+		),
+		radial-gradient(
+				circle,
+				transparent 20%,
+				#e5e5f7 20%,
+				#e5e5f7 80%,
+				transparent 80%,
+				transparent
+			)
+			25px 25px,
+		linear-gradient(#acb1ef 2px, transparent 2px) 0 -1px,
+		linear-gradient(90deg, #acb1ef 2px, #e5e5f7 2px) -1px 0;
+	background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
+}
+
+nav {
+	background-color: slategray;
+	padding: 5px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	padding: 0;
+}
+nav a {
+	color: purple;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: violet;
+}
