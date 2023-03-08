@@ -1,0 +1,58 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+header {
+	background-image: url("https://images.unsplash.com/photo-1505231509341-30534a9372ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+	height: 50vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	background-color: #050707;
+	padding: 10px;
+	margin: 0;
+	list-style: none;
+	font-size: 20;
+	opacity: 0.8;
+}
+
+nav ul a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul a:hover {
+	color: #a0c0c9;
+	transition: 0.3s;
+}
+
+form {
+	padding: 10px;
+}
+form input,
+textarea {
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+form button {
+	width: 30%;
+	padding: 5px;
+	background: #070808;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	transition: all 0.2s;
+}
+
+form button:hover {
+	background: #080a0a;
+	box-shadow: inset 3px 3px 15px -5px #252525;
+	cursor: pointer;
+}
